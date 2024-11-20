@@ -30,10 +30,9 @@ export default function Header({ session }: { session: Session | null }) {
 
           {/* Navigation */}
           <nav className="flex gap-6 items-center">
-            <Link href="/about" className="hover:text-yellow-400 mx-16">Campagin details</Link>
-            <Link href="/campaign" className="hover:text-yellow-400 mx-13">Create Campaigns</Link>
-            <Link href="/Categories" className="hover:text-yellow-400 mx-13">Categories</Link>
-
+            <Link href="/about" className="hover:text-yellow-400 mx-16">Investment</Link>
+            <Link href="/campaign" className="hover:text-yellow-400 mx-13">Business</Link>
+            
         
 
             {/* User Authentication */}
